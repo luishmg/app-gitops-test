@@ -13,4 +13,4 @@ spec:
         name: chartmuseum
         namespace: flux-system
       version: 0.1.0
-  interval: 1m0s
+      interval: 1m0s
