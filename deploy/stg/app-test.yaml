@@ -1,17 +1,15 @@
+---
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: app-test
   namespace: web-store
 spec:
-  interval: 5m
   chart:
     spec:
       chart: app
       sourceRef:
         kind: HelmRepository
-        name: helm-app
-        namespace: flux-system
-      interval: 1m
-  values:
-    replicaCount: 2
+        name: chartmuseum
+      version: 0.1.0
+  interval: 1m0s
