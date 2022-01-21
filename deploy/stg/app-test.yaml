@@ -7,7 +7,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: chartmuseum/app
+      chart: app
       sourceRef:
         kind: HelmRepository
         name: chartmuseum
