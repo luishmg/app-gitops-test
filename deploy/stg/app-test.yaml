@@ -14,5 +14,3 @@ spec:
         namespace: flux-system
       version: 0.1.0
   interval: 1m0s
-  values:
-    fullnameOverride: web-app
