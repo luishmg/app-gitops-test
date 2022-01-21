@@ -8,10 +8,7 @@ spec:
   chart:
     spec:
       chart: app
-      sourceRef:
-        kind: HelmRepository
-        name: chartmuseum
-        namespace: flux-system
+      repository: http://192.168.50.1:8000
       version: 0.1.0
   interval: 1m0s
   values:
