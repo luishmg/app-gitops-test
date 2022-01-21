@@ -15,5 +15,4 @@ spec:
       version: 0.1.0
   interval: 1m0s
   values:
-    serviceAccount:
-      create: false
+    fullnameOverride: web-app
