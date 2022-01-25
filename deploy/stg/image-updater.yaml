@@ -1,0 +1,9 @@
+---
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: app-test
+  namespace: web-store
+spec:
+  image: 192.168.15.8:5000
+  interval: 1m0s
