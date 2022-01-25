@@ -5,5 +5,5 @@ metadata:
   name: app-test
   namespace: web-store
 spec:
-  image: 192.168.15.8:5000
+  image: 192.168.50.1:5000
   interval: 1m0s
